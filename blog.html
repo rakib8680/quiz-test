@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="container mx-auto">
+    <H1 class=" text-center mt-20 text-5xl text-sky-600 font-bold underline ">Important Questions</H1>
+    <section class="mt-14 space-y-5">
+        <div>
+            <h1 class="text-3xl font-semibold text-violet-800 p-5 md:p-0">Question 1 :
+                <span class=" text-3xl font-semibold text-slate-700">What is the difference between Map , filter ,
+                    forEach and find
+                    ?</span>
+            </h1>
+            <p class="text-violet-500 text-lg p-5 ">Answer: <br><span class=" text-slate-700 ">
+                    <span class="font-semibold">Map:</span> Map is an Array Function that execute every element of an
+                    array and returns a new Array that
+                    passed the Execution. <br>
+                    <span class="font-semibold">Filter: </span> When we give and instructions into the filter function ,
+                    it check every element of the
+                    selected array and returns a new array of those elements that passed the condition. <br>
+                    <span class="font-semibold">Find: </span> Find is similar to Filter function. But when it checked
+                    the elements of an array it only returns the first element that successfully passed the condition.
+                    <br>
+                    <span class="font-semibold">ForEach: </span> ForEach loop through every elements of an Array and it
+                    does'nt return anything.
+                </span></p>
+        </div>
+        <div>
+            <h1 class="text-3xl font-semibold text-violet-800 p-5 md:p-0">Question 2 :
+                <span class=" text-3xl font-semibold text-slate-700">What is the difference between LocalStorage ,
+                    SessionStorage and Cookies?</span>
+            </h1>
+            <p class="text-violet-500 text-lg p-5 ">Answer: <br><span class=" text-slate-700 ">
+                    <span class="font-semibold">LocalStorage: </span>LocalStorage collects users data and save it inside
+                    the browser that the user is using. So when the user close the browser and open the browser again
+                    later, he can see the stored data. Local storage stores data permanently.<br>
+                    <span class="font-semibold">SessionStorage: </span>SessionStorage is similar to LocalStorage. But it
+                    does'nt store data permanently. It stores data for a limited period of time. When the user close the
+                    active tab or close the browser, the data from the SessionStorage removed instantly. <br>
+                    <span class="font-semibold">Cookies : </span>Cookies are mainly used to track an users behaviors ,
+                    likings and dislikings to show him personalised things. It stores data in a very limited amount.
+            </p>
+        </div>
+        <div>
+            <h1 class="text-3xl font-semibold text-violet-800 p-5 md:p-0">Question 3 :
+                <span class=" text-3xl font-semibold text-slate-700">What is Event Loop and how it works ?</span>
+            </h1>
+            <p class="text-violet-500 text-lg p-5 ">Answer: <br><span class=" text-slate-700 ">
+                    Event Loop is a high level concept in JavaScript that manages execution tasks.The Event Loop
+                    continuously checks the task queue for tasks that are ready to be executed. <br>
+                    When a task is ready, the Event Loop moves it to the call stack. The call stack executes the
+                    tasks.Event Loop is basically used to handle asynchronous tasks.
+            </p>
+        </div>
+        <div>
+            <h1 class="text-3xl font-semibold text-violet-800 p-5 md:p-0">Question 4 :
+                <span class=" text-3xl font-semibold text-slate-700">What is QuizTimer that used in noChange.js file
+                    ?</span>
+            </h1>
+            <p class="text-violet-500 text-lg p-5 ">Answer: <br><span class=" text-slate-700 ">
+                    We can see that QuizTimer is function that has SetInterval function inside it. This function
+                    activates when we click the StartQuiz button and when we submit the quiz the function ended. So, how
+                    much time we spend on selecting the quiz it'll count the whole time.
+            </p>
+        </div>
+        <div>
+            <h1 class="text-3xl font-semibold text-violet-800 p-5 md:p-0">Question 5 :
+                <span class=" text-3xl font-semibold text-slate-700">What is chooseQuiz that used in noChange.js file
+                    ?</span>
+            </h1>
+            <p class="text-violet-500 text-lg p-5 ">Answer: <br><span class=" text-slate-700 ">
+                    chooseQuiz function is made for choosing the correct answer from the Questions. If a user choose an
+                    option from the questions then, this function will push the answer and display it into the html file
+                    in the right side.
+            </p>
+        </div>
+    </section>
+</body>
+
+</html>
